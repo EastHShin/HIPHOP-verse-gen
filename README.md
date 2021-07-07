@@ -26,4 +26,14 @@ Therefore, you can receive verses in various styles!
 2. Pre-process the dataset. If you have CSV file, you should convert the file into txt file because Teachable NLP
    works only when using txt file.
 3. Use the [Teachable NLP](https://ainize.ai/teachable-nlp) to fine-tune the GPT-2 with hip-hop verse dataset.
-4. Use the created API!
+4. Write a Dockerfile and Upload it to GitHub.
+5. Deployment the service by [Ainize](https://ainize.ai/).
+
+
+## Health Check API
+```
+$ curl --request GET 'https://train-28fsu5ldr900ckrct8t1-gpt2-train-teachable-ainize.endpoint.ainize.ai/ping'
+{
+  "status": "Healthy"
+}
+```
