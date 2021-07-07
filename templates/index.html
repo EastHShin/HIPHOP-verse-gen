@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>hip-hop writer</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b8a96e11c5.js" crossorigin="anonymous"></script>
+    <script src="../static/index.js"></script>
+
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-image: url("https://cdn.pixabay.com/photo/2016/12/17/07/32/hip-hop-1912921_960_720.jpg");
+            background-size: cover;
+        }
+
+        .hiphop {
+            margin-top: 100px;
+            width: 70%;
+            display: inline-block;
+
+        }
+        .button-wrt{
+            color: #fafafa;
+            margin-top: 10px;
+            font-size: 30px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hiphop";>
+        <textarea id="context" style="width:80%; height: 50%;" onkeypress="if(event.keyCode==13) suggestion()"
+        placeholder="Write your lyrics and press the enter key or press the mic icon."></textarea>
+    </div>
+    <div type="button" id="write" onclick="suggestion()" class="button-wrt">
+        <i class="fas fa-microphone-alt"></i>
+    </div>
+</div>
+</body>
+</html>
