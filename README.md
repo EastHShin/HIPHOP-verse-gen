@@ -1,5 +1,10 @@
 # HIP-HOP verse generator
 
+---
+
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/EastHShin/HIPHOP-verse-gen)
+
+---
 ![mainPage](./images/mainPage.png)
 
 
@@ -14,6 +19,8 @@ Then, new verses are created from previously created verse.
 ![Write](./images/Write.png)
 <br>
 ![CreateVerse](./images/CreateVerse.png)
+<br>
+- Verses are created with a length of 30.
 ## Dataset
 HIP-HOP verse generator's dataset consists of various
 rapper's verse data (e.g, ASAP Rocky, Eminem, Drake, Kanye West... etc.).
