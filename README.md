@@ -44,3 +44,8 @@ $ curl --request GET 'https://train-28fsu5ldr900ckrct8t1-gpt2-train-teachable-ai
   "status": "Healthy"
 }
 ```
+
+## Improvements
+
+- Fix the error occurred when coming input empty string. (Jul, 21, 2021)
+- Fix the error occurred when pressing the enter key and mic button simultaneously. (Jul, 21, 2021)
